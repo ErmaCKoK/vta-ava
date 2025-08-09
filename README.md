@@ -12,7 +12,7 @@ Official website for Avatar World Streaming, a macOS application for immersive v
 
 ## 🚀 Live Website
 
-Visit our live website: [https://yourusername.github.io/vta-ava](https://yourusername.github.io/vta-ava)
+Visit our live website: [https://ermackok.github.io/vta-ava](https://ermackok.github.io/vta-ava)
 
 ## 📁 Project Structure
 
@@ -32,7 +32,7 @@ vta-ava/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/vta-ava.git
+   git clone https://github.com/ermackok/vta-ava.git
    cd vta-ava
    ```
 
@@ -56,16 +56,31 @@ This website is automatically deployed to GitHub Pages using GitHub Actions.
 ### Automatic Deployment
 
 - The website automatically deploys when you push to the `main` branch
-- GitHub Actions workflow builds and deploys to the `gh-pages` branch
-- Your website will be available at: `https://yourusername.github.io/vta-ava`
+- GitHub Actions workflow uses the official GitHub Pages deployment action
+- Your website will be available at: `https://ermackok.github.io/vta-ava`
 
-### Manual Setup (if needed)
+### Setup Instructions
 
-1. Go to your repository settings on GitHub
-2. Navigate to "Pages" in the sidebar
-3. Under "Source", select "Deploy from a branch"
-4. Choose "gh-pages" branch and "/ (root)" folder
-5. Click "Save"
+1. **Enable GitHub Pages** in your repository settings:
+   - Go to Settings → Pages
+   - Under "Source", select "GitHub Actions"
+
+2. **Grant Permissions** (if needed):
+   - Go to Settings → Actions → General
+   - Under "Workflow permissions", select "Read and write permissions"
+   - Check "Allow GitHub Actions to create and approve pull requests"
+
+### Troubleshooting
+
+If you encounter deployment errors:
+
+1. **Check Permissions**: Ensure the repository has proper GitHub Pages permissions
+2. **Verify Settings**: Make sure GitHub Pages is enabled in repository settings
+3. **Check Actions Logs**: Review the GitHub Actions logs for specific error messages
+4. **Manual Deployment**: You can also manually deploy by:
+   - Going to Settings → Pages
+   - Selecting "Deploy from a branch"
+   - Choosing "main" branch and "/ (root)" folder
 
 ## 📱 Pages
 
@@ -107,8 +122,6 @@ The website uses a purple/blue gradient theme:
 
 For support or questions about the website:
 - Email: support@avatarworldstreaming.com
-- GitHub Issues: [Create an issue](https://github.com/yourusername/vta-ava/issues)
+- GitHub Issues: [Create an issue](https://github.com/ermackok/vta-ava/issues)
 
 ---
-
-**Note**: Replace `yourusername` with your actual GitHub username in the URLs above.
