@@ -18,6 +18,7 @@ Visit our live website: [https://ermackok.github.io/vta-ava](https://ermackok.gi
 
 ```
 vta-ava/
+├── index.html             # Main entry point (redirects to homepage)
 ├── homepage.html          # Main landing page
 ├── privacy-policy.html    # Privacy policy page
 ├── .github/
@@ -36,7 +37,7 @@ vta-ava/
    cd vta-ava
    ```
 
-2. Open `homepage.html` in your browser to view the website locally.
+2. Open `index.html` or `homepage.html` in your browser to view the website locally.
 
 ### Making Changes
 
